@@ -1,0 +1,11 @@
+baseURL: "https://jackplogan33.github.io/"
+title: Jack Logan
+
+menu:
+    main:
+        - name: Research
+	  url: research/
+	  weight: 1
+	- name: Projects
+	  url: projects/
+	  weight: 2
