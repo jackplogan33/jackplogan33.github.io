@@ -1,0 +1,41 @@
+baseURL: "https://jackplogan33.github.io/"
+title: Jack Logan
+theme: PaperMod
+
+menu:
+  main:
+    - name: Research
+      url: research/
+      weight: 1
+    - name: Projects
+      url: projects/
+      weight: 2
+
+params: 
+  DateFormat: "January 2006"
+  MainSections: ["research", "projects"]
+  defaultTheme: auto
+  author: Jack Logan
+
+  profileMode:
+      enabled: true
+      title: Jack P. Logan
+      subtitle: "I am a rising senior in Geophysical Engineering at the Colorado School of mines. I am interested in satellite observations and their applications to earth processes such as glacial fracture, wildfire detection, and precipitation."
+      imageUrl: "headshot.jpg"
+      imageWidth: 160
+      imageHeight: 160
+      buttons:
+        - name: Research
+          url: research/
+        - name: Projects
+          url: projects/
+  socialIcons:
+    - name: GitHub
+      url: https://github.com/jackplogan33
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/jack-logan-40145523a
+
+  label:
+    text: "Jack Logan"
+    icon: favicon.ico
+    iconHeight: 18
